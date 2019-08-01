@@ -17,14 +17,13 @@ import 'package:angular_router/angular_router.dart';
     providers: [ClassProvider(ApiService)],
     exports: [RoutePath, Routes])
 class AppComponent implements OnInit {
-//  final title = 'Tour';
-  AppComponent(this._apiService);
-
-  ApiService _apiService;
-  Stream<List<Movie>> movies$;
+//  AppComponent(this._apiService);
+//
+//  ApiService _apiService;
+//  Stream<List<Movie>> movies$;
 
   @override
   void ngOnInit() {
-    movies$ = _apiService.getMovies();
+//    movies$ = _apiService.getMovies();
   }
 }

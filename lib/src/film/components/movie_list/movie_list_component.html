@@ -1,2 +1,4 @@
-<movie-info *ngFor="let m of movies" [movie]="m">
-</movie-info>
+<div *ngFor="let movie of movies$ | async ">
+    <h3 class="title" (click)="goMovie(movie.id)">{{movie.title}} ({{movie.originalTitle}})</h3>
+    <img src="{{movie.posterPath}}">
+</div>

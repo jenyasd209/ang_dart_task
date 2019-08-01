@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ea9430e-c5ab-430e-a31b-f378874e98fb" name="Default Changelist" comment="" />
+    <list default="true" id="6ea9430e-c5ab-430e-a31b-f378874e98fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/src/film/components/movie_list/movie_list_component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app_component.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app_component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/film/api.service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/film/api.service.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/film/components/movie_info/movie_info_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/film/components/movie_info/movie_info_component.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/film/components/movie_info/movie_info_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/film/components/movie_info/movie_info_component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/film/components/movie_list/movie_list_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/film/components/movie_list/movie_list_component.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/film/components/movie_list/movie_list_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/film/components/movie_list/movie_list_component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/route_paths.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/route_paths.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/routes.dart" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +24,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dart File" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
@@ -21,10 +37,13 @@
     </layout>
   </component>
   <component name="ProjectId" id="1OlmPeL8uYALHDpcnW0GAyQnP4A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -76,11 +95,26 @@
       <workItem from="1564584849200" duration="8214000" />
       <workItem from="1564593564461" duration="234000" />
       <workItem from="1564593824145" duration="4163000" />
-      <workItem from="1564648584754" duration="2954000" />
+      <workItem from="1564648584754" duration="3276000" />
+      <workItem from="1564659320719" duration="404000" />
+      <workItem from="1564679544346" duration="5432000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

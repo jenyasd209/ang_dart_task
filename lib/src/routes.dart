@@ -7,6 +7,10 @@ import 'package:angularDartTest/src/film/components/movie_info/movie_info_compon
 export 'route_paths.dart';
 
 class Routes {
+  static final home = RouteDefinition.redirect(
+    path: '',
+    redirectTo: RoutePaths.movies.toUrl(),
+  );
   static final movies = RouteDefinition(
     routePath: RoutePaths.movies,
     component: movie_list_component.MovieListComponentNgFactory,
@@ -17,6 +21,7 @@ class Routes {
   );
 
   static final all = <RouteDefinition>[
+    home,
     movies,
     movie,
   ];
