@@ -1,8 +1,8 @@
 import 'package:angular/angular.dart';
-import 'package:angularDartTest/src/film/api.service.dart';
-import 'package:angularDartTest/src/film/models/movie.dart';
+
 import 'package:angularDartTest/src/route_paths.dart';
 import 'package:angular_router/angular_router.dart';
+import 'package:task_app_shared/task_app_shared.dart';
 
 @Component(
     selector: 'movie-info',

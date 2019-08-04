@@ -1,6 +1,6 @@
 <div *ngIf="movie != null">
     <button (click)="goBack()">Back</button>
-    <h3>{{movie.title}} ({{movie.originalTitle}})</h3>
+    <h3>{{movie.originalName}}</h3>
     <img src="{{movie.posterPath}}">
     <p>{{movie.overview}}</p>
 </div>

@@ -1,9 +1,8 @@
 import 'package:angular/angular.dart';
-import 'package:angularDartTest/src/film/api.service.dart';
 import 'package:angularDartTest/src/film/components/movie_info/movie_info_component.dart';
-import 'package:angularDartTest/src/film/models/movie.dart';
 import 'package:angularDartTest/src/route_paths.dart';
 import 'package:angular_router/angular_router.dart';
+import 'package:task_app_shared/task_app_shared.dart';
 
 @Component(
     selector: 'movie-list',
@@ -12,16 +11,21 @@ import 'package:angular_router/angular_router.dart';
     directives: [coreDirectives, MovieInfoComponent],
     pipes: [commonPipes])
 class MovieListComponent implements OnInit {
-  final ApiService _apiService;
+//  final ApiService _apiService;
   final Router _router;
+  MovieBloc _movieBloc;
 
-  MovieListComponent(this._apiService, this._router);
+  MovieListComponent(this._router, this._movieBloc);
 
-  Stream<List<Movie>> movies$;
+  List<Movie> movies;
 
   @override
   void ngOnInit() {
-    movies$ = _apiService.getMovies();
+    _movieBloc.dispatchGetMovies();
+    _movieBloc.state.listen((state) {
+      print(state);
+      movies = state.movies.toList();
+    });
   }
 
   void goMovie(int id) {
